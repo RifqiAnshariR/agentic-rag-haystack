@@ -1,0 +1,44 @@
+/* Reset dan Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 100%;
+    left: 0%;
+    text-align: center;
+}
+
+.chat-bubble {
+    max-width: 80%;
+    padding: 0.8rem 1rem;
+    margin: 0.4rem 0;
+    border-radius: 1rem;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+.user-bubble {
+    background-color: #DCF8C6;
+    color: #000;
+    margin-left: auto;
+    border-bottom-right-radius: 0.3rem;
+}
+.assistant-bubble {
+    background-color: #E5E5EA;
+    color: #000;
+    margin-right: auto;
+    border-bottom-left-radius: 0.3rem;
+}
+
+.footer {
+    width: 100%;
+    bottom: 10px;
+    position: fixed;
+    left: 0px;
+    text-align: center;
+    color: grey;
+    font-size: 1em;
+    z-index: 999;
+}
