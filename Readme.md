@@ -21,3 +21,6 @@
 ## How to run:
 1. To run ingestor: `python ingestor.py`
 2. To run Streamlit: `streamlit run app.py`
+
+## Demo:
+https://youtu.be/6CO3TUrcAuA
